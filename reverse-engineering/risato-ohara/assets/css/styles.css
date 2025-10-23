@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    268deg,
+    #b0c3ff,
+    #eea3ff,
+    #a2d5ff,
+    #ffa7e7,
+    #ffcea6,
+    #feffa8,
+    #b0c3ff,
+    #b0c3ff
+  );
+}
+
+.wrapper {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  border: 2px solid red;
+  height: 90vh;
+  mix-blend-mode: multiply;
+}
+
+.spacer {
+  height: 300vh;
+}
+
+.block1 {
+  clip-path: polygon(
+    22% 100%,
+    0 100%,
+    0 0,
+    23% 0,
+    23% 12%,
+    38% 12%,
+    38% 33%,
+    23% 33%,
+    24% 87%,
+    36% 87%,
+    36% 100%
+  );
+  background: rgb(246, 234, 0);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 380px;
+  left: 90px;
+}
+
+.block2 {
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 0),
+    rgb(255, 178, 243)
+  );
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 650px;
+  left: 240px;
+}
+
+.block3 {
+  clip-path: polygon(
+    21% 76%,
+    0 76%,
+    0 46%,
+    90% 46%,
+    90% 0,
+    100% 0,
+    100% 100%,
+    44% 100%,
+    44% 55%,
+    32% 55%,
+    32% 91%,
+    21% 91%
+  );
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 0),
+    rgb(255, 178, 243)
+  );
+  width: 260px;
+  height: 400px;
+  position: absolute;
+  top: 170px;
+  left: 240px;
+}
+
+.block4 {
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 226, 203),
+    rgb(255, 204, 247)
+  );
+  width: 260px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+.block5 {
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 246, 81),
+    rgb(255, 189, 223)
+  );
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+.block6 {
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 246, 81),
+    rgb(255, 225, 0)
+  );
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.block7 {
+  clip-path: polygon(16% 63%, 16% 0, 100% 0, 100% 100%, 0 100%, 0 63%);
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 245),
+    rgb(250, 109, 255)
+  );
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 440px;
+  left: 530px;
+}
+.block8 {
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 122, 240),
+    rgb(227, 150, 245)
+  );
+  width: 180px;
+  height: 230px;
+  position: absolute;
+  top: 40px;
+  left: 570px;
+}
+.block9 {
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 170, 245),
+    rgb(218, 121, 245)
+  );
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 290px;
+  left: 570px;
+}
+.block10 {
+  clip-path: polygon(
+    27% 0,
+    84% 0,
+    84% 43%,
+    100% 43%,
+    100% 63%,
+    100% 100%,
+    0 100%,
+    0 43%,
+    27% 43%
+  );
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 141, 211),
+    rgb(128, 72, 168)
+  );
+  width: 180px;
+  height: 370px;
+  position: absolute;
+  top: 50px;
+  left: 840px;
+}
+.block11 {
+  clip-path: polygon(
+    53% 0,
+    53% 19%,
+    100% 19%,
+    100% 76%,
+    55% 76%,
+    55% 100%,
+    0 100%,
+    0 43%,
+    0 0
+  );
+  background: rgb(255, 157, 152);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 218, 251),
+    rgb(218, 187, 230),
+    rgb(143, 100, 180)
+  );
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  left: 590px;
+}
+
+.block12 {
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(204, 132, 227),
+    rgb(174, 79, 200)
+  );
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 650px;
+  left: 840px;
+}
+.block13 {
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 193, 238),
+    rgb(117, 72, 159)
+  );
+  width: 390px;
+  height: 80px;
+  position: absolute;
+  top: 550px;
+  left: 700px;
+}
+
+.block14 {
+  background: rgb(229, 218, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(210, 187, 217),
+    rgb(114, 33, 136)
+  );
+  width: 70px;
+  height: 180px;
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .block {
+    transform: translate(0, -50%) !important;
+  }
+}
