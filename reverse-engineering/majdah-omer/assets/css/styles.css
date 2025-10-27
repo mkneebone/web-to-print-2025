@@ -1,0 +1,23 @@
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/images/image_unedited_x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  width: 6.6in;
+  height: 8.6in;
+  place-items: center;
+  position: relative;
+}
+
+.image {
+  /* mix-blend-mode: multiply; */
+}
