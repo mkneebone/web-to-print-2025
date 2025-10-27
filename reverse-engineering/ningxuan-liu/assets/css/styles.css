@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-container {
+  width: 95vw;
+  height: 95vh;
+  border: 1px solid blue;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 0.15fr;
+  justify-content: space-between;
+}
+
+.box {
+  height: 100%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.box-big {
+  border-radius: 10px;
+  height: 80%;
+  border: 2px solid red;
+}
+
+.box-sml {
+  border-radius: 10px;
+  width: 98%;
+  height: 12%;
+  border: 2px solid red;
+  position: absolute;
+  bottom: 0;
+}
+
+.redbutton {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
