@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(400px, 100%));
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotted {
+  --dotSize: 0.15rem;
+  aspect-ratio: 1;
+  position: relative;
+  background-image: radial-gradient(
+    circle at center,
+    black var(--dotSize),
+    transparent 0
+  );
+  background-size: 0.25rem 0.25rem;
+  background-repeat: round;
+  background-position: center;
+  border: 4px solid;
+}
+
+.dotted:nth-child(even) {
+  --bgSize: 0.5rem;
+  --bgPosition: calc(var(--bgSize) / 2);
+  background-image: radial-gradient(
+      circle at center,
+      black var(--dotSize),
+      transparent 0
+    ),
+    radial-gradient(circle at center, black var(--dotSize), transparent 0);
+  background-size: var(--bgSize) var(--bgSize);
+  background-position: 0 0, var(--bgPosition) var(--bgPosition);
+}
