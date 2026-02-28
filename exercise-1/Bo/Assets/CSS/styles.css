@@ -1,0 +1,17 @@
+style {
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: red;
+  }
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 100px;
+    letter-spacing: -12px;
+    color: rgb(206, 84, 84);
+    position: relative;
+  }
+  p2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(206, 84, 84);
+  }
+}

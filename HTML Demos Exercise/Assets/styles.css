@@ -1,0 +1,120 @@
+body {
+  background-image: url("https://ngmdb.usgs.gov/ht-bin/tv_browse.pl?id=98fc7d215a5664c184d79ff724c4cc02");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 4900px;
+  height: 6000px;
+  z-index: 0;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(232, 44, 113);
+  font-weight: lighter;
+  font-size: xx-large;
+  margin: 0px;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(232, 44, 113);
+  font-weight: lighter;
+  font-size: xx-large;
+  margin: 0px;
+  position: absolute;
+  top: 5950px;
+  width: 4900px;
+}
+
+p1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(232, 44, 113);
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+p2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(232, 44, 113);
+  font-weight: lighter;
+  font-size: xx-large;
+  position: absolute;
+  left: 4780px;
+  top: 78px;
+}
+
+vertcrosshair {
+  width: 4px;
+  height: 100%;
+  background-color: rgb(0, 223, 149);
+  opacity: 95%;
+  border: 3px rgb(0, 0, 0);
+  position: fixed;
+  left: 50%;
+  top: 0px;
+  z-index: 1000;
+}
+
+horzcrosshair {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(0, 223, 149);
+  opacity: 95%;
+  border: 8px rgb(0, 0, 0);
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  z-index: 1000;
+}
+
+scope {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(277, 277, 277, 0.5);
+  opacity: 85%;
+  border: 20px rgb(0, 223, 149);
+  border-style: double;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+backvertcrosshair {
+  width: 6px;
+  height: 100%;
+  background-color: rgb(14, 14, 14);
+
+  opacity: 15%;
+  position: fixed;
+  left: 50.4%;
+  top: 0px;
+  z-index: 1000;
+}
+
+backhorzcrosshair {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(14, 14, 14);
+  opacity: 15%;
+  position: fixed;
+  top: 50.6%;
+  left: 0px;
+  z-index: 1000;
+}
+
+backscope {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(277, 277, 277, 0);
+  opacity: 15%;
+  border: 20px rgb(14, 14, 14);
+  border-style: double;
+  position: fixed;
+  top: 50.6%;
+  left: 50.4%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
